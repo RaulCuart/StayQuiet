@@ -1,0 +1,4407 @@
+fileFormatVersion: 2
+guid: 3417abff9f1db7f44a4ec9fc8b100e24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6058055012149699343
+    second: FDR_Enemy_05_C_0
+  - first:
+      213: 8518460307146305203
+    second: FDR_Enemy_05_C_1
+  - first:
+      213: 1156741879368569477
+    second: FDR_Enemy_05_C_2
+  - first:
+      213: 797383841803405811
+    second: FDR_Enemy_05_C_3
+  - first:
+      213: 5736007432552591873
+    second: FDR_Enemy_05_C_4
+  - first:
+      213: 7619769899316688598
+    second: FDR_Enemy_05_C_5
+  - first:
+      213: 8847687497641355995
+    second: FDR_Enemy_05_C_6
+  - first:
+      213: -3827556087785490328
+    second: FDR_Enemy_05_C_7
+  - first:
+      213: -8026803355359937978
+    second: FDR_Enemy_05_C_8
+  - first:
+      213: 2180317078740683587
+    second: FDR_Enemy_05_C_9
+  - first:
+      213: 2654115250886367606
+    second: FDR_Enemy_05_C_10
+  - first:
+      213: 8864731405876159800
+    second: FDR_Enemy_05_C_11
+  - first:
+      213: -528486752104143163
+    second: FDR_Enemy_05_C_12
+  - first:
+      213: 362378389480904487
+    second: FDR_Enemy_05_C_13
+  - first:
+      213: -5838551154683407672
+    second: FDR_Enemy_05_C_14
+  - first:
+      213: -3289064146268344827
+    second: FDR_Enemy_05_C_15
+  - first:
+      213: 8567925588440709124
+    second: FDR_Enemy_05_C_16
+  - first:
+      213: 3359336058341739721
+    second: FDR_Enemy_05_C_17
+  - first:
+      213: 7094316710938474649
+    second: FDR_Enemy_05_C_18
+  - first:
+      213: 1128078227347611870
+    second: FDR_Enemy_05_C_19
+  - first:
+      213: 302558090422358932
+    second: FDR_Enemy_05_C_20
+  - first:
+      213: -6099438103742546878
+    second: FDR_Enemy_05_C_21
+  - first:
+      213: -5815751939547958237
+    second: FDR_Enemy_05_C_22
+  - first:
+      213: 3072138552149616309
+    second: FDR_Enemy_05_C_23
+  - first:
+      213: 4263351674397912083
+    second: FDR_Enemy_05_C_24
+  - first:
+      213: 5695094995541227530
+    second: FDR_Enemy_05_C_25
+  - first:
+      213: 1490203504194891527
+    second: FDR_Enemy_05_C_26
+  - first:
+      213: -6045094921475266251
+    second: FDR_Enemy_05_C_27
+  - first:
+      213: 9098477511299881396
+    second: FDR_Enemy_05_C_28
+  - first:
+      213: -6532142797852834892
+    second: FDR_Enemy_05_C_29
+  - first:
+      213: -6580787737794939457
+    second: FDR_Enemy_05_C_30
+  - first:
+      213: 5609179990736742367
+    second: FDR_Enemy_05_C_31
+  - first:
+      213: 4795369353264559447
+    second: FDR_Enemy_05_C_32
+  - first:
+      213: -2589340425955023521
+    second: FDR_Enemy_05_C_33
+  - first:
+      213: -6587543979252583077
+    second: FDR_Enemy_05_C_34
+  - first:
+      213: -2323457021750549754
+    second: FDR_Enemy_05_C_35
+  - first:
+      213: 2399628880495288024
+    second: FDR_Enemy_05_C_36
+  - first:
+      213: 4326079575195560563
+    second: FDR_Enemy_05_C_37
+  - first:
+      213: -1421631780679217435
+    second: FDR_Enemy_05_C_38
+  - first:
+      213: -6219700940994763028
+    second: FDR_Enemy_05_C_39
+  - first:
+      213: -7882968869767739074
+    second: FDR_Enemy_05_C_40
+  - first:
+      213: 3339023306939788520
+    second: FDR_Enemy_05_C_41
+  - first:
+      213: -3182481201183511753
+    second: FDR_Enemy_05_C_42
+  - first:
+      213: -3480666042490265848
+    second: FDR_Enemy_05_C_43
+  - first:
+      213: -4198179785338130042
+    second: FDR_Enemy_05_C_44
+  - first:
+      213: -5280579709412830168
+    second: FDR_Enemy_05_C_45
+  - first:
+      213: 4138260500722865498
+    second: FDR_Enemy_05_C_46
+  - first:
+      213: 4373462844040264613
+    second: FDR_Enemy_05_C_47
+  - first:
+      213: 3858135318228036984
+    second: FDR_Enemy_05_C_48
+  - first:
+      213: -5577433919890650227
+    second: FDR_Enemy_05_C_49
+  - first:
+      213: -5308323817151064816
+    second: FDR_Enemy_05_C_50
+  - first:
+      213: 5084064956212449575
+    second: FDR_Enemy_05_C_51
+  - first:
+      213: 1640625371005178282
+    second: FDR_Enemy_05_C_52
+  - first:
+      213: -8189901822729562370
+    second: FDR_Enemy_05_C_53
+  - first:
+      213: 7588963607430728797
+    second: FDR_Enemy_05_C_54
+  - first:
+      213: -3572783452553052600
+    second: FDR_Enemy_05_C_55
+  - first:
+      213: -1930981417283755704
+    second: FDR_Enemy_05_C_56
+  - first:
+      213: -5629096528303703111
+    second: FDR_Enemy_05_C_57
+  - first:
+      213: -2633038703731778987
+    second: FDR_Enemy_05_C_58
+  - first:
+      213: 6651205260362781312
+    second: FDR_Enemy_05_C_59
+  - first:
+      213: 1565020106607557340
+    second: FDR_Enemy_05_C_60
+  - first:
+      213: -7063038693477673948
+    second: FDR_Enemy_05_C_61
+  - first:
+      213: 449712295294666057
+    second: FDR_Enemy_05_C_62
+  - first:
+      213: 6866311492148462995
+    second: FDR_Enemy_05_C_63
+  - first:
+      213: -5943242069903090132
+    second: FDR_Enemy_05_C_64
+  - first:
+      213: -3431912561473731501
+    second: FDR_Enemy_05_C_65
+  - first:
+      213: 7719976333850266577
+    second: FDR_Enemy_05_C_66
+  - first:
+      213: 2704078848351551050
+    second: FDR_Enemy_05_C_67
+  - first:
+      213: 6579963917542125824
+    second: FDR_Enemy_05_C_68
+  - first:
+      213: 8020252527242593265
+    second: FDR_Enemy_05_C_69
+  - first:
+      213: 992875596347084997
+    second: FDR_Enemy_05_C_70
+  - first:
+      213: 6378124188391348408
+    second: FDR_Enemy_05_C_71
+  - first:
+      213: 7119897860970251441
+    second: FDR_Enemy_05_C_72
+  - first:
+      213: 1421316511303106196
+    second: FDR_Enemy_05_C_73
+  - first:
+      213: -6854330448112024044
+    second: FDR_Enemy_05_C_74
+  - first:
+      213: -7294289665004762860
+    second: FDR_Enemy_05_C_75
+  - first:
+      213: 6435021457239414983
+    second: FDR_Enemy_05_C_76
+  - first:
+      213: 5755684088352219969
+    second: FDR_Enemy_05_C_77
+  - first:
+      213: 5431176888070980323
+    second: FDR_Enemy_05_C_78
+  - first:
+      213: -5930179789560967730
+    second: FDR_Enemy_05_C_79
+  - first:
+      213: -4312989914294915522
+    second: FDR_Enemy_05_C_80
+  - first:
+      213: -8942870193262149957
+    second: FDR_Enemy_05_C_81
+  - first:
+      213: 7682479392320160369
+    second: FDR_Enemy_05_C_82
+  - first:
+      213: 6916076655974629883
+    second: FDR_Enemy_05_C_83
+  - first:
+      213: 4896021520582093010
+    second: FDR_Enemy_05_C_84
+  - first:
+      213: 7705069937271811081
+    second: FDR_Enemy_05_C_85
+  - first:
+      213: 534541120412707947
+    second: FDR_Enemy_05_C_86
+  - first:
+      213: 9110566673471562270
+    second: FDR_Enemy_05_C_87
+  - first:
+      213: -7009883706235798822
+    second: FDR_Enemy_05_C_88
+  - first:
+      213: 6784652885132199815
+    second: FDR_Enemy_05_C_89
+  - first:
+      213: -3137214426090989696
+    second: FDR_Enemy_05_C_90
+  - first:
+      213: 5821553770803371818
+    second: FDR_Enemy_05_C_91
+  - first:
+      213: 6921137699225910563
+    second: FDR_Enemy_05_C_92
+  - first:
+      213: -2440832326342340221
+    second: FDR_Enemy_05_C_93
+  - first:
+      213: 6477098284238146647
+    second: FDR_Enemy_05_C_94
+  - first:
+      213: -4045770315907063986
+    second: FDR_Enemy_05_C_95
+  - first:
+      213: 8096016969907725405
+    second: FDR_Enemy_05_C_96
+  - first:
+      213: 3288347532566869577
+    second: FDR_Enemy_05_C_97
+  - first:
+      213: -1040381020104944078
+    second: FDR_Enemy_05_C_98
+  - first:
+      213: 6327473387787288565
+    second: FDR_Enemy_05_C_99
+  - first:
+      213: 3916144024858796864
+    second: FDR_Enemy_05_C_100
+  - first:
+      213: 228422731212457890
+    second: FDR_Enemy_05_C_101
+  - first:
+      213: 7304435463866673445
+    second: FDR_Enemy_05_C_102
+  - first:
+      213: -7913760429447920195
+    second: FDR_Enemy_05_C_103
+  - first:
+      213: 2105766320320679339
+    second: FDR_Enemy_05_C_104
+  - first:
+      213: -6481599436558908147
+    second: FDR_Enemy_05_C_105
+  - first:
+      213: -439552330093697454
+    second: FDR_Enemy_05_C_106
+  - first:
+      213: 6898403811303525150
+    second: FDR_Enemy_05_C_107
+  - first:
+      213: 6987230834506169709
+    second: FDR_Enemy_05_C_108
+  - first:
+      213: 1838998489049045932
+    second: FDR_Enemy_05_C_109
+  - first:
+      213: -3186260435052821654
+    second: FDR_Enemy_05_C_110
+  - first:
+      213: -6401393178665708686
+    second: FDR_Enemy_05_C_111
+  - first:
+      213: -1849380312636387863
+    second: FDR_Enemy_05_C_112
+  - first:
+      213: -4177680574904699038
+    second: FDR_Enemy_05_C_113
+  - first:
+      213: 4729181726297254484
+    second: FDR_Enemy_05_C_114
+  - first:
+      213: 8657240112362555817
+    second: FDR_Enemy_05_C_115
+  - first:
+      213: 2486247634549521459
+    second: FDR_Enemy_05_C_116
+  - first:
+      213: 4504333008149138679
+    second: FDR_Enemy_05_C_117
+  - first:
+      213: 1494483545552571092
+    second: FDR_Enemy_05_C_118
+  - first:
+      213: 9030196698855079174
+    second: FDR_Enemy_05_C_119
+  - first:
+      213: 1106823557204309642
+    second: FDR_Enemy_05_C_120
+  - first:
+      213: 5066433853888438723
+    second: FDR_Enemy_05_C_121
+  - first:
+      213: -6219400790565178740
+    second: FDR_Enemy_05_C_122
+  - first:
+      213: 718588839180116762
+    second: FDR_Enemy_05_C_123
+  - first:
+      213: -7088499538283902160
+    second: FDR_Enemy_05_C_124
+  - first:
+      213: -204670788454595784
+    second: FDR_Enemy_05_C_125
+  - first:
+      213: 7511754867949544953
+    second: FDR_Enemy_05_C_126
+  - first:
+      213: 5032791440678503100
+    second: FDR_Enemy_05_C_127
+  - first:
+      213: 5038203040908386770
+    second: FDR_Enemy_05_C_128
+  - first:
+      213: 396944547045410153
+    second: FDR_Enemy_05_C_129
+  - first:
+      213: -6550726714005133459
+    second: FDR_Enemy_05_C_130
+  - first:
+      213: -6907685911609734291
+    second: FDR_Enemy_05_C_131
+  - first:
+      213: 271117603329361712
+    second: FDR_Enemy_05_C_132
+  - first:
+      213: -3073237857035008302
+    second: FDR_Enemy_05_C_133
+  - first:
+      213: 8711015598847692358
+    second: FDR_Enemy_05_C_134
+  - first:
+      213: -4579823770880300351
+    second: FDR_Enemy_05_C_135
+  - first:
+      213: -2022751736304737926
+    second: FDR_Enemy_05_C_136
+  - first:
+      213: 503584077380901673
+    second: FDR_Enemy_05_C_137
+  - first:
+      213: 8886640011022078537
+    second: FDR_Enemy_05_C_138
+  - first:
+      213: -2726902512767596262
+    second: FDR_Enemy_05_C_139
+  - first:
+      213: 6713384524759522961
+    second: FDR_Enemy_05_C_140
+  - first:
+      213: 778052955095170361
+    second: FDR_Enemy_05_C_141
+  - first:
+      213: 6019979695504196609
+    second: FDR_Enemy_05_C_142
+  - first:
+      213: -6929509156343137144
+    second: FDR_Enemy_05_C_143
+  - first:
+      213: 79788181580195886
+    second: FDR_Enemy_05_C_144
+  - first:
+      213: -6927635941327169095
+    second: FDR_Enemy_05_C_145
+  - first:
+      213: -7860539352505639853
+    second: FDR_Enemy_05_C_146
+  - first:
+      213: -8707124726440493746
+    second: FDR_Enemy_05_C_147
+  - first:
+      213: 6122277486883235143
+    second: FDR_Enemy_05_C_148
+  - first:
+      213: -6658135317489464175
+    second: FDR_Enemy_05_C_149
+  - first:
+      213: -997147366550451429
+    second: FDR_Enemy_05_C_150
+  - first:
+      213: -6377676904759548269
+    second: FDR_Enemy_05_C_151
+  - first:
+      213: -1425679545651410016
+    second: FDR_Enemy_05_C_152
+  - first:
+      213: -1485695696234886969
+    second: FDR_Enemy_05_C_153
+  - first:
+      213: 5485729667519997006
+    second: FDR_Enemy_05_C_154
+  - first:
+      213: -1431220661612875791
+    second: FDR_Enemy_05_C_155
+  - first:
+      213: -6194769225474626159
+    second: FDR_Enemy_05_C_156
+  - first:
+      213: 288758125386375105
+    second: FDR_Enemy_05_C_157
+  - first:
+      213: 4904775412613837340
+    second: FDR_Enemy_05_C_158
+  - first:
+      213: -2433867849740739094
+    second: FDR_Enemy_05_C_159
+  - first:
+      213: -2158387879587091103
+    second: FDR_Enemy_05_C_160
+  - first:
+      213: -8926835313069161954
+    second: FDR_Enemy_05_C_161
+  - first:
+      213: 4351346573234992944
+    second: FDR_Enemy_05_C_162
+  - first:
+      213: 1404682583634602284
+    second: FDR_Enemy_05_C_163
+  - first:
+      213: -2632638671829921282
+    second: FDR_Enemy_05_C_164
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 191
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d6d760966a72e44abb281e6a942d58
+      internalID: -1431919657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 188
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799539bd9a4f47b46b3d5a8a68196695
+      internalID: -1711041862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 187
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db177bd3b5b44849a73e1573bc916a2
+      internalID: 193809710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 190
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288a80d0a2742244c95bdcc5275a870d
+      internalID: 244884238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 182
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63feab9538e89914b821b0546c33cf6b
+      internalID: 1924078636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 183
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ffdc8f9b076464ea8149ac24fc7bb5
+      internalID: 1262374111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 184
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae50c0baa17b4364fbc5d410ad7168d9
+      internalID: -1857700959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 190
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7ea3b0d23987c42b969e773ed4b0fc
+      internalID: 149746317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 193
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1339b0b313172894d94c9d6ad2f12927
+      internalID: -1614984864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 190
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613c1c4fb2f465c4ba636bdc67576556
+      internalID: -1021429340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 187
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9323c47904fbb4198900b17b33683e
+      internalID: -1670395389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 190
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eb0cd8a79c0e049aaa666be591f3c3
+      internalID: -1511797794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_12
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 193
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746894cff7fef274ea90e70c7ffa307c
+      internalID: 1492914309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 193
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45e047d604beca4380ea04ba0f817ec
+      internalID: -1667743331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_14
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 193
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a69c92bd1ca7a498d14a5532f1eb74
+      internalID: 1995297903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_15
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 195
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b09ec1db2d329468d6c7c0c17b68a5
+      internalID: 1010035267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_16
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 195
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad18b5afec767f41b35720c35e3e366
+      internalID: -96627742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_17
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 100
+        width: 36
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18321f98a36d6b94080ef2c591fc25e9
+      internalID: 114222038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 159
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8844e272f38ceb243982af4a03eaf580
+      internalID: 2008023464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_19
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 156
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc5de985cbdfb4409daed8bd3ae04eb
+      internalID: 1744446643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_20
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 155
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aee93e9a7d0d344c91d21e6f357e50e
+      internalID: 374691809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_21
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 157
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4562d18ad61d5e4997a12777f8197b4
+      internalID: -2025591525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_22
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 159
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768c68a842569604a8b279246ba14037
+      internalID: -1701830797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_23
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 158
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22af81d18bc880b44a69543023cbccb8
+      internalID: 1108558228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_24
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 156
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423ede551c03a4f449a29ed81040309a
+      internalID: -1347102784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_25
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 157
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b7a80ee57bd7840a459f1af59b6ec2
+      internalID: -1331133010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_26
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 161
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd78ee0da4ef84742a86ab316c8cf374
+      internalID: 385141245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_27
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 158
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61edbb33a892994ba7ba8168ee467f0
+      internalID: 853131549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_28
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 155
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc07534f36330a4194540f42607ffab
+      internalID: -658830897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_29
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 157
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08a21767fa71194c9e5114fe919eb7f
+      internalID: -1777083706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_30
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 161
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41362069407ad1042a7ed5a1bedb25c9
+      internalID: -1426726703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_31
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 161
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2129699f8cd9e64cb5a1cd6a49c74bf
+      internalID: -666679067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_32
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 162
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e605f880326d8c042982a73819611890
+      internalID: 660198614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_33
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 127
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f94652212a70c45836093cc3012232
+      internalID: 1472041285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_34
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 124
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d96bb282bdc694a812750784c157f9
+      internalID: -1372185751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_35
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 123
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4dadcbcf43b0243aff4d64cca346bb
+      internalID: -1173457782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_36
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 125
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed077afbed17a3499be56ef7ecfc886
+      internalID: -1393552826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_37
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 127
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a283d12cdc40e594fb3f5cb8f27aec99
+      internalID: 769016899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_38
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 126
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8680c1328f4064cb50d6d237ae4506
+      internalID: 1206718779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_39
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 124
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8965ae2c58c961c4dbadd4a462adfa95
+      internalID: 966882034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_40
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 125
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb51f635ffff1d34f918f73c054c9b13
+      internalID: 1203484983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_41
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 129
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb65a51220c9324488bfab57fc85cf62
+      internalID: 1550564286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_42
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 126
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88b8bd014110dd4fbdd1534b1768f71
+      internalID: 550846421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_43
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 123
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39faf24155fcb64abd74e3bc2285f85
+      internalID: -1072458426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_44
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 125
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840564c1662deb247bd9cb8d4335a676
+      internalID: 1520496505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_45
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 129
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f9cf3e2c18c044e95b733afbb1765a
+      internalID: -1700704834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_46
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 129
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80edb5e2bfba9044a1e064f457b1d54
+      internalID: -771612400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_47
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 130
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc46dfb63d62ac44a050eb01fcf6ad3
+      internalID: 334535777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 95
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0e3a83c53bd1f41b70744fa3855750
+      internalID: -666727110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_49
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 92
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1729166ce866725449c4163c8b58acdf
+      internalID: -1592525537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_50
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 91
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56a3507ee0cc084b9ade8e0e814133f
+      internalID: -322121376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_51
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 94
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5591efc25132e549b0a8dc523668732
+      internalID: -469946260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_52
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 86
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fd0d5df262c234fa5dbcbb26234c84
+      internalID: -770578551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_53
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 87
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cb7f843328b6a4cafe4403d895ccbe
+      internalID: 1716776866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_54
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 88
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45497f90107d6634d8f4a51e6ea0617f
+      internalID: 1232109306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_55
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 94
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d3abd84d0ebe74d839a519623137f1
+      internalID: 912585530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_56
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 97
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0760a8c74c5b2d49a00a43b62318029
+      internalID: 1653526680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_57
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 94
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3570299d5f322eb4a98a904945679464
+      internalID: 1056993684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_58
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 91
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c77ff09a58213458020a9e50d7608b
+      internalID: 221967077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_59
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 94
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb0fd0a4be2f514b9b43a9b3999fed0
+      internalID: 1255663458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_60
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 97
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b777d23bf02c7964a93873124630c09b
+      internalID: -2013392122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_61
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 97
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34589155def56cc438ebf7aa331c818f
+      internalID: 150574270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_62
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 97
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125aa01f6bcd61d44ae95d00448f76c8
+      internalID: 1426107259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_63
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 99
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383d8476744655c4ab0d47186b8713be
+      internalID: -400945884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_64
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 99
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf833f52bad6a240a43948eb5a75003
+      internalID: 2083834846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_65
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 98
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56217b39ae4e18745bd3583c4dabcdb6
+      internalID: 1337294950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_66
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 41
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185c0cd28c011444fada653ad5796775
+      internalID: 1503801611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2a814c3f207b242a8414222e7633ae
+      internalID: 1258228896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_68
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 45
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c5d1eec01c1a14b94ed5e307bbaa32
+      internalID: 976625355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_69
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 44
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae703c39dea1cd24e96b8cc9ca234b25
+      internalID: -305614827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_70
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 42
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f0c788019fb9b458e8b63fad96eb01
+      internalID: 1371953234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_71
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 41
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d049d82ab6d0584caa449ce9691ea49
+      internalID: -1980387966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_72
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 44
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adddc43adc8cc6e4988e8e654769b6aa
+      internalID: 933889510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_73
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 44
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4befd87df70f7cb499e8567df75fceea
+      internalID: -725855567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_74
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847d4a0935f43fb418dcfbeb36429617
+      internalID: -4300347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_75
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c570cd8e11986c54b9fe9a5905b8aa3d
+      internalID: -1874878262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_76
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a012cd429e81c594e89dd43c14eb1a20
+      internalID: 1556285484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_77
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 4
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d970b55960a946440bf85d5378f5bc58
+      internalID: 877043040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_78
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d07989bc8ff3194bb4b4eccbbe6590e
+      internalID: -1948199578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_79
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100074d2dc3160d4f8152e273f044130
+      internalID: 1260645872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_80
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc950c0553125b42b759340c31da69b
+      internalID: 1283510787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_81
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1996f988c723fd947a0f4bee602ab256
+      internalID: -136396412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_82
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a8822604b40ba40bc84d1311b351d1
+      internalID: 1080997058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_83
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c304c11c6e369748b7299111334593c
+      internalID: -623197953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_84
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cc7ed6d28a8014496376076d9171f7
+      internalID: -1233915956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_85
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 4
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1819b5bda67f874f95024b34069c86c
+      internalID: 970417012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_86
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a798e08221461345a86c0e42afab0c3
+      internalID: 499619473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_87
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66fde15c8c3df34586a647f32a0dc67
+      internalID: -1414623431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_88
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d1039565e57d14a9080839a785658d
+      internalID: -947585560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_89
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93eea4bafe8457479f7893db2423599
+      internalID: 981074782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_90
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d351f639f4fca794a97e46994dadc04d
+      internalID: -337191008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_91
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 4
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1ae8058be99ab449befb4492836808
+      internalID: -898152728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_92
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadbd2d5654e5ec47893fea4ce104834
+      internalID: -609203477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_93
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88ec95c1d4201d41bbd52808cfcc15b
+      internalID: -1892505936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_94
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0070acb5a37f6f2438856596f0946b55
+      internalID: 1848168754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_95
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d68acd64b5d6a49aa665312e421a40
+      internalID: -1016781616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_96
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 10
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae32cada88591f4e96a88d09c8c4afd
+      internalID: -1619025871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_97
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 10
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb869d091545ad740b501bd9dc32c0f0
+      internalID: 1850157839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_98
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efd2e4b8dfe26248822e1a1d8572a84
+      internalID: -1961297048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_99
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47216f3d5b961fe4d98860aec62ab3cc
+      internalID: -1879148692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_100
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34deda76f71b4944d8f7baf3df48c3b5
+      internalID: 948595148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_101
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f63af7e28d9d2459744456eef239b9
+      internalID: 43870770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_102
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b530273259992c14bb9f49c1ab17b405
+      internalID: 802471263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_103
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e7babbc645636458759c2bd738cce3
+      internalID: 105258304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba693309e34e324490fa6f4896f829b
+      internalID: -1473166843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_105
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233e3a21c527f4f45b31ab05bb6eb05b
+      internalID: 158081364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_106
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37836a1cece32124aaf6c1d3db1db311
+      internalID: 1936460062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_107
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1234159ac61475448e61313fd306858
+      internalID: -154373336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_108
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ee22f4bc35d4248b225fd4e0331c2f
+      internalID: -713624811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_109
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5c558fd3b4d8d48858bad4b97b971a
+      internalID: -923520539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_110
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd3080e0e223fd4e9a1158688742942
+      internalID: 2142361143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_111
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd185a7ab7b15204189138b0a1138f57
+      internalID: -1415531381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_112
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c4d37ebaf0f1647b37daab06d234c5
+      internalID: 1451730747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_113
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bc1e6bdbd41ca488beb40ee7304084
+      internalID: -2102793015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_114
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b5420fa636919479c6ef059e806b78
+      internalID: 898304502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_115
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c27724777d2cc47a63a5fc11d80640
+      internalID: -649791188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_116
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8649393450eec1c44bf0ae97f3c6f799
+      internalID: -418125946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_117
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a4c4e394b104b4db9fb81fb4be1b06
+      internalID: -550489358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_118
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170404fb6aff5c24ba0018665e03caeb
+      internalID: -694875519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_119
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224fcf63c42b2884aad9d9b7c63464ab
+      internalID: 947200424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_120
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72987db845683e44962d3b9d8d699ce
+      internalID: -2001417032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_121
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09880cb49386e0240b1ba24d86488265
+      internalID: -1359592247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_122
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558fc8c42b8e3b645b76e54877b64d45
+      internalID: -103508995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_123
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1f1d40ac507c647a168a456dfa9043
+      internalID: 962423735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_124
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfee57514c639014680ab004c249714a
+      internalID: 663139130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_125
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97cc6e80b696014282dc5ff6692cb6d
+      internalID: -1567772185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_126
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17ef761972084d45876f5723f1ca669
+      internalID: -442980143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_127
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb752ff9519e814f9e64eeeb5d18966
+      internalID: -521807146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_128
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f050ede03b9e1a4ea8fd10760860b60
+      internalID: -861964674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_129
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57731feebc90834196a304bcbd0be89
+      internalID: -1587781200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_130
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f44fc693549cc94992de8b26c761d22
+      internalID: -712171968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_131
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a9facdfce19b840afe0662b8bcccc8
+      internalID: -1615374861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_132
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7789ecbfccd5a46ac7c409115a057a
+      internalID: 1012915071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_133
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b53fd8077a4444bb5c3092759fef4a
+      internalID: 35951875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_134
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96eb07e165cfe041a6c8b7c272cbd5a
+      internalID: 1671740876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_135
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337559ae1bf43674b97c58ea1412b122
+      internalID: 500239792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_136
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a86dea13f9da042bdc928b9c0c7a6e
+      internalID: 1498068637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_137
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39b5fa8cc5a65d4d8351db11d34d1bb
+      internalID: -1974482051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_138
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d933dafbae1a854f8bfec4ea613caa3
+      internalID: -1677756304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_139
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e053a0f7c995240a9801f6fe0fd578
+      internalID: 1915031596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_140
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed457c7b27be7154f8992aa3ee1cf185
+      internalID: 280386881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_141
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5098a3191adaf43892c4a4eb965c97
+      internalID: -685588014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_142
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf95d2198994f047b19b60711b4dbcd
+      internalID: 1009216597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_143
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffb85702cf4b5745bb486cdfc1ac6ec
+      internalID: 1553615350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_144
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34cb67aa9a2a0f4784b530a934bcc4c
+      internalID: -739107274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_145
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fe381624b793049b13df22045c4992
+      internalID: 1325447073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_146
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b60dc9b1839bf4498b79351c41e70e
+      internalID: 893731147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_147
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e1a532ff30ea445b090634356dcf80
+      internalID: -925234691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_148
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafe946632147234a8157cd234cb0031
+      internalID: 1585074566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_149
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385b2193778de754f9ad0ac62e1aa1fd
+      internalID: 1786904097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_150
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db86d53b2c741594582283577ccbcc3b
+      internalID: 908046229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_151
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414e55758b2ea4045b666ecc8c55411e
+      internalID: -1113222227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_152
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eef264a4bc4884d84c81056bc49d20
+      internalID: 1352513511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_153
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1046960a35adeda479080e2fb84bdeae
+      internalID: -1795074154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_154
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e491f0d695412b540933647b196de9e4
+      internalID: -1848675002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_155
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35330777bebd6694b8c6ccc3178737d6
+      internalID: -1142427126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_156
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf49151ef6461e44bba0b731c2f04b4c
+      internalID: -1987872928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_157
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e0704a50208d24eb642d0f96c22187
+      internalID: -229125712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_158
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfd0d81700e8a149bf0d73bfc2e781c
+      internalID: 615014900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_159
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151124e65c63f464cb5d66bbb88b5eb5
+      internalID: 317224063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_160
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc8c6233352a8e4cb8dc7006b30016c
+      internalID: 1240149029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_161
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f09fa362e665e4e9ac0d04e82eb817
+      internalID: 2055189260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_162
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 2
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b06c83c27356ed448a252bea34693ee
+      internalID: -1338981188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_163
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b301c3ca48c75a47adf25f248504990
+      internalID: 1360280813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FDR_Enemy_05_C_164
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 2
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17110d6fb09ea9e4bbd754b44bab7190
+      internalID: 1752778357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fc677943e6d71e24a86a20d9ac926461
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FDR_Enemy_05_C_0: -1431919657
+      FDR_Enemy_05_C_1: -1711041862
+      FDR_Enemy_05_C_10: -1670395389
+      FDR_Enemy_05_C_100: 948595148
+      FDR_Enemy_05_C_101: 43870770
+      FDR_Enemy_05_C_102: 802471263
+      FDR_Enemy_05_C_103: 105258304
+      FDR_Enemy_05_C_104: -1473166843
+      FDR_Enemy_05_C_105: 158081364
+      FDR_Enemy_05_C_106: 1936460062
+      FDR_Enemy_05_C_107: -154373336
+      FDR_Enemy_05_C_108: -713624811
+      FDR_Enemy_05_C_109: -923520539
+      FDR_Enemy_05_C_11: -1511797794
+      FDR_Enemy_05_C_110: 2142361143
+      FDR_Enemy_05_C_111: -1415531381
+      FDR_Enemy_05_C_112: 1451730747
+      FDR_Enemy_05_C_113: -2102793015
+      FDR_Enemy_05_C_114: 898304502
+      FDR_Enemy_05_C_115: -649791188
+      FDR_Enemy_05_C_116: -418125946
+      FDR_Enemy_05_C_117: -550489358
+      FDR_Enemy_05_C_118: -694875519
+      FDR_Enemy_05_C_119: 947200424
+      FDR_Enemy_05_C_12: 1492914309
+      FDR_Enemy_05_C_120: -2001417032
+      FDR_Enemy_05_C_121: -1359592247
+      FDR_Enemy_05_C_122: -103508995
+      FDR_Enemy_05_C_123: 962423735
+      FDR_Enemy_05_C_124: 663139130
+      FDR_Enemy_05_C_125: -1567772185
+      FDR_Enemy_05_C_126: -442980143
+      FDR_Enemy_05_C_127: -521807146
+      FDR_Enemy_05_C_128: -861964674
+      FDR_Enemy_05_C_129: -1587781200
+      FDR_Enemy_05_C_13: -1667743331
+      FDR_Enemy_05_C_130: -712171968
+      FDR_Enemy_05_C_131: -1615374861
+      FDR_Enemy_05_C_132: 1012915071
+      FDR_Enemy_05_C_133: 35951875
+      FDR_Enemy_05_C_134: 1671740876
+      FDR_Enemy_05_C_135: 500239792
+      FDR_Enemy_05_C_136: 1498068637
+      FDR_Enemy_05_C_137: -1974482051
+      FDR_Enemy_05_C_138: -1677756304
+      FDR_Enemy_05_C_139: 1915031596
+      FDR_Enemy_05_C_14: 1995297903
+      FDR_Enemy_05_C_140: 280386881
+      FDR_Enemy_05_C_141: -685588014
+      FDR_Enemy_05_C_142: 1009216597
+      FDR_Enemy_05_C_143: 1553615350
+      FDR_Enemy_05_C_144: -739107274
+      FDR_Enemy_05_C_145: 1325447073
+      FDR_Enemy_05_C_146: 893731147
+      FDR_Enemy_05_C_147: -925234691
+      FDR_Enemy_05_C_148: 1585074566
+      FDR_Enemy_05_C_149: 1786904097
+      FDR_Enemy_05_C_15: 1010035267
+      FDR_Enemy_05_C_150: 908046229
+      FDR_Enemy_05_C_151: -1113222227
+      FDR_Enemy_05_C_152: 1352513511
+      FDR_Enemy_05_C_153: -1795074154
+      FDR_Enemy_05_C_154: -1848675002
+      FDR_Enemy_05_C_155: -1142427126
+      FDR_Enemy_05_C_156: -1987872928
+      FDR_Enemy_05_C_157: -229125712
+      FDR_Enemy_05_C_158: 615014900
+      FDR_Enemy_05_C_159: 317224063
+      FDR_Enemy_05_C_16: -96627742
+      FDR_Enemy_05_C_160: 1240149029
+      FDR_Enemy_05_C_161: 2055189260
+      FDR_Enemy_05_C_162: -1338981188
+      FDR_Enemy_05_C_163: 1360280813
+      FDR_Enemy_05_C_164: 1752778357
+      FDR_Enemy_05_C_17: 114222038
+      FDR_Enemy_05_C_18: 2008023464
+      FDR_Enemy_05_C_19: 1744446643
+      FDR_Enemy_05_C_2: 193809710
+      FDR_Enemy_05_C_20: 374691809
+      FDR_Enemy_05_C_21: -2025591525
+      FDR_Enemy_05_C_22: -1701830797
+      FDR_Enemy_05_C_23: 1108558228
+      FDR_Enemy_05_C_24: -1347102784
+      FDR_Enemy_05_C_25: -1331133010
+      FDR_Enemy_05_C_26: 385141245
+      FDR_Enemy_05_C_27: 853131549
+      FDR_Enemy_05_C_28: -658830897
+      FDR_Enemy_05_C_29: -1777083706
+      FDR_Enemy_05_C_3: 244884238
+      FDR_Enemy_05_C_30: -1426726703
+      FDR_Enemy_05_C_31: -666679067
+      FDR_Enemy_05_C_32: 660198614
+      FDR_Enemy_05_C_33: 1472041285
+      FDR_Enemy_05_C_34: -1372185751
+      FDR_Enemy_05_C_35: -1173457782
+      FDR_Enemy_05_C_36: -1393552826
+      FDR_Enemy_05_C_37: 769016899
+      FDR_Enemy_05_C_38: 1206718779
+      FDR_Enemy_05_C_39: 966882034
+      FDR_Enemy_05_C_4: 1924078636
+      FDR_Enemy_05_C_40: 1203484983
+      FDR_Enemy_05_C_41: 1550564286
+      FDR_Enemy_05_C_42: 550846421
+      FDR_Enemy_05_C_43: -1072458426
+      FDR_Enemy_05_C_44: 1520496505
+      FDR_Enemy_05_C_45: -1700704834
+      FDR_Enemy_05_C_46: -771612400
+      FDR_Enemy_05_C_47: 334535777
+      FDR_Enemy_05_C_48: -666727110
+      FDR_Enemy_05_C_49: -1592525537
+      FDR_Enemy_05_C_5: 1262374111
+      FDR_Enemy_05_C_50: -322121376
+      FDR_Enemy_05_C_51: -469946260
+      FDR_Enemy_05_C_52: -770578551
+      FDR_Enemy_05_C_53: 1716776866
+      FDR_Enemy_05_C_54: 1232109306
+      FDR_Enemy_05_C_55: 912585530
+      FDR_Enemy_05_C_56: 1653526680
+      FDR_Enemy_05_C_57: 1056993684
+      FDR_Enemy_05_C_58: 221967077
+      FDR_Enemy_05_C_59: 1255663458
+      FDR_Enemy_05_C_6: -1857700959
+      FDR_Enemy_05_C_60: -2013392122
+      FDR_Enemy_05_C_61: 150574270
+      FDR_Enemy_05_C_62: 1426107259
+      FDR_Enemy_05_C_63: -400945884
+      FDR_Enemy_05_C_64: 2083834846
+      FDR_Enemy_05_C_65: 1337294950
+      FDR_Enemy_05_C_66: 1503801611
+      FDR_Enemy_05_C_67: 1258228896
+      FDR_Enemy_05_C_68: 976625355
+      FDR_Enemy_05_C_69: -305614827
+      FDR_Enemy_05_C_7: 149746317
+      FDR_Enemy_05_C_70: 1371953234
+      FDR_Enemy_05_C_71: -1980387966
+      FDR_Enemy_05_C_72: 933889510
+      FDR_Enemy_05_C_73: -725855567
+      FDR_Enemy_05_C_74: -4300347
+      FDR_Enemy_05_C_75: -1874878262
+      FDR_Enemy_05_C_76: 1556285484
+      FDR_Enemy_05_C_77: 877043040
+      FDR_Enemy_05_C_78: -1948199578
+      FDR_Enemy_05_C_79: 1260645872
+      FDR_Enemy_05_C_8: -1614984864
+      FDR_Enemy_05_C_80: 1283510787
+      FDR_Enemy_05_C_81: -136396412
+      FDR_Enemy_05_C_82: 1080997058
+      FDR_Enemy_05_C_83: -623197953
+      FDR_Enemy_05_C_84: -1233915956
+      FDR_Enemy_05_C_85: 970417012
+      FDR_Enemy_05_C_86: 499619473
+      FDR_Enemy_05_C_87: -1414623431
+      FDR_Enemy_05_C_88: -947585560
+      FDR_Enemy_05_C_89: 981074782
+      FDR_Enemy_05_C_9: -1021429340
+      FDR_Enemy_05_C_90: -337191008
+      FDR_Enemy_05_C_91: -898152728
+      FDR_Enemy_05_C_92: -609203477
+      FDR_Enemy_05_C_93: -1892505936
+      FDR_Enemy_05_C_94: 1848168754
+      FDR_Enemy_05_C_95: -1016781616
+      FDR_Enemy_05_C_96: -1619025871
+      FDR_Enemy_05_C_97: 1850157839
+      FDR_Enemy_05_C_98: -1961297048
+      FDR_Enemy_05_C_99: -1879148692
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
