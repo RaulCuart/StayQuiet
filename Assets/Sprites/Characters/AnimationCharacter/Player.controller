@@ -67,7 +67,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: movimiento.x
-    m_EventTreshold: 0
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2705575257780192174}
   m_Solo: 0
@@ -142,7 +142,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: movimiento.y
-    m_EventTreshold: 0.5
+    m_EventTreshold: -0.5
   - m_ConditionMode: 1
     m_ConditionEvent: isMoving
     m_EventTreshold: 0
@@ -391,7 +391,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 3
     m_ConditionEvent: movimiento.x
-    m_EventTreshold: 0
+    m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2705575257780192174}
   m_Solo: 0
@@ -538,16 +538,16 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -4826701446451607195}
-    m_Position: {x: 30, y: 220, z: 0}
+    m_Position: {x: 50, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1908089109600285076}
-    m_Position: {x: 20, y: 630, z: 0}
+    m_Position: {x: 100, y: 630, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2705575257780192174}
-    m_Position: {x: 390, y: 340, z: 0}
+    m_Position: {x: 420, y: 410, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6823601785277983205}
-    m_Position: {x: 760, y: 270, z: 0}
+    m_Position: {x: 960, y: 290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2912939652948000118}
     m_Position: {x: -80, y: -140, z: 0}
@@ -559,7 +559,7 @@ AnimatorStateMachine:
     m_Position: {x: -330, y: 90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4144691958079619797}
-    m_Position: {x: -240, y: 350, z: 0}
+    m_Position: {x: -180, y: 410, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -662,7 +662,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: movimiento.y
-    m_EventTreshold: 0
+    m_EventTreshold: 0.5
   - m_ConditionMode: 1
     m_ConditionEvent: isMoving
     m_EventTreshold: 0
@@ -746,7 +746,10 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: movimiento.x
-    m_EventTreshold: 0.1
+    m_EventTreshold: 0.5
+  - m_ConditionMode: 1
+    m_ConditionEvent: isMoving
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2705575257780192174}
   m_Solo: 0
@@ -904,7 +907,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 4
     m_ConditionEvent: movimiento.x
-    m_EventTreshold: 0
+    m_EventTreshold: -0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4144691958079619797}
   m_Solo: 0
