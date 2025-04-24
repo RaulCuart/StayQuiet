@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
@@ -9,8 +10,10 @@ public class Player : MonoBehaviour
     private Vector2 movimiento;
     public Collider2D playerCollider;
     public Animator animator;
+    public Transform flashlightRotation;
     private bool hasSword = false;
     public bool isMoving = false;
+   
 
     public GameObject attackObjectprefab;
     public Vector2 ultimaDireccion = Vector2.down;
@@ -34,6 +37,8 @@ public class Player : MonoBehaviour
             isMoving = true;
             animator.SetBool("isMoving", isMoving);
             ultimaDireccion = Vector2.left;
+            flashlightRotation.transform.rotation = Quaternion.Euler(0, 0, 90);
+
         }
 
         if (Input.GetKey(KeyCode.D))
@@ -43,6 +48,7 @@ public class Player : MonoBehaviour
             isMoving = true;
             animator.SetBool("isMoving", isMoving);
             ultimaDireccion = Vector2.right;
+            flashlightRotation.transform.rotation = Quaternion.Euler(0, 0, 270);
         }
 
         if (Input.GetKey(KeyCode.W))
@@ -52,6 +58,7 @@ public class Player : MonoBehaviour
             isMoving = true;
             animator.SetBool("isMoving", isMoving);
             ultimaDireccion = Vector2.up;
+            flashlightRotation.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
 
         if (Input.GetKey(KeyCode.S))
@@ -62,6 +69,7 @@ public class Player : MonoBehaviour
             animator.SetBool("isMoving", isMoving);
             ultimaDireccion = Vector2.down;
 
+            flashlightRotation.transform.rotation = Quaternion.Euler(0, 0, 180);
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && hasSword)
