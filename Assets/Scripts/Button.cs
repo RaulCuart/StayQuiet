@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class Button : MonoBehaviour
@@ -31,7 +32,10 @@ public class Button : MonoBehaviour
                 activated = true;
                 if (isTrap)
                 {
-                    fall();
+                    canBeToggled = false;
+                    player.GetComponent<Player>().isFalling = true;
+                    pitTrap.SetActive(true);
+                    playerFlashLight.SetActive(false);
                 }
             } else
             {
@@ -56,13 +60,24 @@ public class Button : MonoBehaviour
 
     private void fall()
     {
+        playerIsAlive = false;
         pitTrap.SetActive(true);
+        stayStillBeforeFall();
         fallingEffect.Play();
         player.GetComponent<SpriteRenderer>().enabled = false;
+        player.GetComponent<Player>().isAlive = playerIsAlive;
+        playerFlashLight.SetActive(false);
+        ambientalMusic.Stop();
+    }
+
+    IEnumerator stayStillBeforeFall()
+    {
+        pitTrap.SetActive(true);
         playerIsAlive = false;
         player.GetComponent<Player>().isAlive = playerIsAlive;
         playerFlashLight.SetActive(false);
         ambientalMusic.Stop();
+        yield return null;
     }
 
 

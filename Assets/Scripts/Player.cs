@@ -3,12 +3,14 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
+using UnityEngine.Scripting.APIUpdating;
 
 public class Player : MonoBehaviour
 {
     public bool isShifting = false;
     public float velocidad = 5f;
     public Rigidbody2D rb;
+    public SpriteRenderer spriteRenderer;
     private Vector2 movimiento;
     public Collider2D playerCollider;
     public Animator animator;
@@ -17,10 +19,20 @@ public class Player : MonoBehaviour
     private float normalSpeed;
     public bool isMoving = false;
     public bool isAlive = true;
-    public AudioSource gameOver;
+
     private bool musicPlayed = false;
+    public bool isFalling = false;
+    public bool hasFallen = false;
+    public GameObject GameManager;
+
+    public AudioSource ambientalMusic;
+    public AudioSource fallingSound;
+    public AudioSource gameOverSound;
     public AudioSource steps;
 
+    public Sprite lookingLeft;
+    public Sprite lookingRight;
+    public Sprite lookingDown;
 
     public GameObject attackObjectprefab;
     public Vector2 ultimaDireccion = Vector2.down;
@@ -31,11 +43,18 @@ public class Player : MonoBehaviour
     }
 
     void Update()
-    {   
+    {
+        if (isFalling && !hasFallen)
+        {
+            animator.enabled = false;
+            hasFallen = true;
+            isAlive = false;
+            StartCoroutine(falls());
+        }
         if (!isAlive && !musicPlayed)
         {
-            StartCoroutine(PlayGameOverSound(3f));
-            musicPlayed=true;
+            //StartCoroutine(PlayGameOverSound(3f));
+           // musicPlayed=true;
         }
         velocidad = normalSpeed;
         isMoving = false;
@@ -45,7 +64,6 @@ public class Player : MonoBehaviour
         movimiento.y = 0;
         animator.SetFloat("movimiento.x", movimiento.x);
         animator.SetFloat("movimiento.y", movimiento.y);
-
 
 
         if (Input.GetKey(KeyCode.LeftShift))     
@@ -173,7 +191,7 @@ public class Player : MonoBehaviour
     IEnumerator PlayGameOverSound(float delay)
     {
         yield return new WaitForSeconds(delay);
-        gameOver.Play();
+        
     }
 
     private void playStepSound()
@@ -190,5 +208,31 @@ public class Player : MonoBehaviour
         {
             steps.Stop();
         }
+    }
+
+    IEnumerator falls()
+    {
+        yield return new WaitForSeconds(1.5f);
+        spriteRenderer.sprite = lookingLeft;
+        yield return new WaitForSeconds(1.5f);
+        spriteRenderer.sprite = lookingRight;
+        for (int i = 0; i < 3; i++)
+        {
+            yield return new WaitForSeconds(0.2f);
+            spriteRenderer.sprite = lookingLeft;
+            yield return new WaitForSeconds(0.2f);
+            spriteRenderer.sprite = lookingRight;
+        }
+      
+        yield return new WaitForSeconds(0.5f);
+        spriteRenderer.sprite = lookingDown;
+        fallingSound.Play();
+        for (int i = 73; i >= 0; i--)
+        {
+            yield return null;
+            float scale = i / 73f;
+            transform.localScale = new Vector3(scale,scale,1);
+        }
+        gameOverSound.Play();
     }
 }
