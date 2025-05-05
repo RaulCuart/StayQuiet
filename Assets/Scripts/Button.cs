@@ -14,7 +14,6 @@ public class Button : MonoBehaviour
     private Boolean activated = false;
     public AudioSource fallingEffect;
     private bool playerIsAlive;
-    public AudioSource ambientalMusic;
    
     void Start()
     {
@@ -58,27 +57,6 @@ public class Button : MonoBehaviour
         }
     }
 
-    private void fall()
-    {
-        playerIsAlive = false;
-        pitTrap.SetActive(true);
-        stayStillBeforeFall();
-        fallingEffect.Play();
-        player.GetComponent<SpriteRenderer>().enabled = false;
-        player.GetComponent<Player>().isAlive = playerIsAlive;
-        playerFlashLight.SetActive(false);
-        ambientalMusic.Stop();
-    }
-
-    IEnumerator stayStillBeforeFall()
-    {
-        pitTrap.SetActive(true);
-        playerIsAlive = false;
-        player.GetComponent<Player>().isAlive = playerIsAlive;
-        playerFlashLight.SetActive(false);
-        ambientalMusic.Stop();
-        yield return null;
-    }
 
 
 }
