@@ -5,7 +5,7 @@ using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 using UnityEngine.Scripting.APIUpdating;
 
-public class Player : MonoBehaviour
+public class PlayerScript : MonoBehaviour
 {
     public bool isShifting = false;
     public float velocidad = 5f;
@@ -19,16 +19,20 @@ public class Player : MonoBehaviour
     private float normalSpeed;
     public bool isMoving = false;
     public bool isAlive = true;
+    public bool isBeingHit = false;
+
 
     private bool musicPlayed = false;
     public bool isFalling = false;
     public bool hasFallen = false;
     public GameObject GameManager;
 
+    public AudioSource oof;
     public AudioSource ambientalMusic;
     public AudioSource fallingSound;
     public AudioSource gameOverSound;
     public AudioSource steps;
+    private bool flashlightStatus = true;
 
     public Sprite lookingLeft;
     public Sprite lookingRight;
@@ -50,11 +54,6 @@ public class Player : MonoBehaviour
             hasFallen = true;
             isAlive = false;
             StartCoroutine(falls());
-        }
-        if (!isAlive && !musicPlayed)
-        {
-            //StartCoroutine(PlayGameOverSound(3f));
-           // musicPlayed=true;
         }
         velocidad = normalSpeed;
         isMoving = false;
@@ -178,7 +177,9 @@ public class Player : MonoBehaviour
     private void toggleFlashlight()
     {
         Light2D light = flashlight.GetComponent<Light2D>();
-        if (light.intensity > 0)
+        flashlightStatus = light.intensity > 0;
+
+        if (flashlightStatus)
         {
             light.intensity = 0;
         } 
@@ -212,6 +213,7 @@ public class Player : MonoBehaviour
 
     IEnumerator falls()
     {
+        ambientalMusic.Stop();
         yield return new WaitForSeconds(1.5f);
         spriteRenderer.sprite = lookingLeft;
         yield return new WaitForSeconds(1.5f);
@@ -234,5 +236,31 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(scale,scale,1);
         }
         gameOverSound.Play();
+    }
+
+    public bool isLightOn ()
+    {
+        return this.flashlightStatus;
+    }
+
+    public IEnumerator getHitEffect()
+    {
+        if (!isBeingHit && !hasFallen)
+        {
+            isBeingHit = true;
+            oof.Play();
+            spriteRenderer.color = Color.red;
+             yield return new WaitForSeconds(0.5f);
+            spriteRenderer.color = Color.white;
+            for (int i = 0; i < 4; i++)
+            {
+                 spriteRenderer.color = Color.red;
+                 yield return new WaitForSeconds(0.1f);
+                 spriteRenderer.color = Color.white;
+                 yield return new WaitForSeconds(0.1f);
+            }
+        }
+        yield return new WaitForSeconds(1f);
+        isBeingHit = false;
     }
 }

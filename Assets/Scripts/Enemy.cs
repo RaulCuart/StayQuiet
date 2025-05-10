@@ -10,15 +10,25 @@ public class Enemy : MonoBehaviour
     private Vector2 movimiento;
     public Animator animator;
     public float range = 1f;
+    public monsterType monsterName;
+    public PlayerScript playerScript;
+    private bool hasAttacked = false;
+
+    public enum monsterType
+    {
+        Bat,
+        Eye
+    }
 
     void Start()
     {
-       
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
 
         movimiento.x = 0;
         movimiento.y = 0;
@@ -27,7 +37,7 @@ public class Enemy : MonoBehaviour
         float distance_x = playerPosition.x - transform.position.x;
         float distance_y = playerPosition.y - transform.position.y;
 
-        if (Mathf.Abs(distance_x) < range )
+        if (Mathf.Abs(distance_x) <= range)
         {
             movimiento.x = 0;
             animator.SetFloat("movimiento.x", movimiento.x);
@@ -45,7 +55,8 @@ public class Enemy : MonoBehaviour
         {
             movimiento.y = 0;
             animator.SetFloat("movimiento.y", movimiento.y);
-        } else if (playerPosition.y < transform.position.y)
+        }
+        else if (playerPosition.y < transform.position.y)
         {
             movimiento.y = -1;
             animator.SetFloat("movimiento.y", movimiento.y);
@@ -54,17 +65,23 @@ public class Enemy : MonoBehaviour
             movimiento.y = 1;
             animator.SetFloat("movimiento.y", movimiento.y);
         }
-    }
+        if (Mathf.Abs(distance_y) <= range && Mathf.Abs(distance_x) <= range)
+        {
+            StartCoroutine(enemyAttacks());
+        } 
 
+    }
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movimiento * speed * Time.fixedDeltaTime);
     }
-    public IEnumerator moveToPlayer(Transform targetPosition)
+    public IEnumerator enemyAttacks()
     {
-
-
-        yield return null;
-
+        if (!playerScript.isBeingHit)
+        {
+            yield return StartCoroutine(playerScript.getHitEffect());
+            yield return new WaitForSeconds(2f);
+            hasAttacked = false;
+        }
     }
 }

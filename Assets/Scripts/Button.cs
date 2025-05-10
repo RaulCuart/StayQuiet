@@ -17,7 +17,7 @@ public class Button : MonoBehaviour
    
     void Start()
     {
-         playerIsAlive = player.GetComponent<Player>().isAlive;
+         playerIsAlive = player.GetComponent<PlayerScript>().isAlive;
     }
 
     // Update is called once per frame
@@ -32,7 +32,7 @@ public class Button : MonoBehaviour
                 if (isTrap)
                 {
                     canBeToggled = false;
-                    player.GetComponent<Player>().isFalling = true;
+                    player.GetComponent<PlayerScript>().isFalling = true;
                     pitTrap.SetActive(true);
                     playerFlashLight.SetActive(false);
                 }
