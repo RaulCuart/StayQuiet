@@ -8,24 +8,21 @@ using UnityEngine.Scripting.APIUpdating;
 public class PlayerScript : MonoBehaviour
 {
     public bool isShifting = false;
-    public float velocidad = 5f;
+    public float speed = 5f;
     public Rigidbody2D rb;
     public SpriteRenderer spriteRenderer;
-    private Vector2 movimiento;
+    private Vector2 movement;
     public Collider2D playerCollider;
     public Animator animator;
     public GameObject flashlight;
-    private bool hasSword = false;
     private float normalSpeed;
     public bool isMoving = false;
     public bool isAlive = true;
     public bool isBeingHit = false;
-
-
-    private bool musicPlayed = false;
     public bool isFalling = false;
     public bool hasFallen = false;
-    public GameObject GameManager;
+    public int maxHp = 3;
+    private int currentHp;
 
     public AudioSource oof;
     public AudioSource ambientalMusic;
@@ -38,16 +35,21 @@ public class PlayerScript : MonoBehaviour
     public Sprite lookingRight;
     public Sprite lookingDown;
 
-    public GameObject attackObjectprefab;
-    public Vector2 ultimaDireccion = Vector2.down;
-
     private void Start()
     {
-        normalSpeed = velocidad;
+        normalSpeed = speed;
+        currentHp = maxHp;
     }
 
     void Update()
     {
+
+        if (!isAlive)
+        {
+            Light2D light = flashlight.GetComponent<Light2D>();
+            light.intensity = 0;
+        }
+
         if (isFalling && !hasFallen)
         {
             animator.enabled = false;
@@ -55,19 +57,19 @@ public class PlayerScript : MonoBehaviour
             isAlive = false;
             StartCoroutine(falls());
         }
-        velocidad = normalSpeed;
+        speed = normalSpeed;
         isMoving = false;
         isShifting = false;
         animator.SetBool("isMoving", isMoving);
-        movimiento.x = 0;
-        movimiento.y = 0;
-        animator.SetFloat("movimiento.x", movimiento.x);
-        animator.SetFloat("movimiento.y", movimiento.y);
+        movement.x = 0;
+        movement.y = 0;
+        animator.SetFloat("movimiento.x", movement.x);
+        animator.SetFloat("movimiento.y", movement.y);
 
 
         if (Input.GetKey(KeyCode.LeftShift))     
         {
-            velocidad = normalSpeed / 2;
+            speed = normalSpeed / 2;
             animator.speed = 0.3f;
             isShifting = true;
         } else
@@ -77,22 +79,20 @@ public class PlayerScript : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A) && isAlive)
         {
-            movimiento.x = -1;
-            animator.SetFloat("movimiento.x", movimiento.x);
+            movement.x = -1;
+            animator.SetFloat("movimiento.x", movement.x);
             isMoving = true;
             animator.SetBool("isMoving", isMoving);
-            ultimaDireccion = Vector2.left;
             flashlight.transform.rotation = Quaternion.Euler(0, 0, 90);
             playStepSound();
         }
 
         if (Input.GetKey(KeyCode.D) && isAlive)
         {
-            movimiento.x = 1;
-            animator.SetFloat("movimiento.x", movimiento.x);
+            movement.x = 1;
+            animator.SetFloat("movimiento.x", movement.x);
             isMoving = true;
             animator.SetBool("isMoving", isMoving);
-            ultimaDireccion = Vector2.right;
             flashlight.transform.rotation = Quaternion.Euler(0, 0, 270);
             playStepSound();
 
@@ -100,11 +100,10 @@ public class PlayerScript : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W) && isAlive)
         {
-            movimiento.y = 1;
-            animator.SetFloat("movimiento.y", movimiento.y);
+            movement.y = 1;
+            animator.SetFloat("movimiento.y", movement.y);
             isMoving = true;
             animator.SetBool("isMoving", isMoving);
-            ultimaDireccion = Vector2.up;
             flashlight.transform.rotation = Quaternion.Euler(0, 0, 0);
             playStepSound();
 
@@ -112,87 +111,56 @@ public class PlayerScript : MonoBehaviour
 
         if (Input.GetKey(KeyCode.S) && isAlive)
         {
-            movimiento.y = -1;
-            animator.SetFloat("movimiento.y", movimiento.y);
+            movement.y = -1;
+            animator.SetFloat("movimiento.y", movement.y);
             isMoving = true;
             animator.SetBool("isMoving", isMoving);
-            ultimaDireccion = Vector2.down;
             flashlight.transform.rotation = Quaternion.Euler(0, 0, 180);
             playStepSound();
 
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && hasSword)
-        {
-            Attack();
-        }
         if (Input.GetKeyDown(KeyCode.F))
         {
             toggleFlashlight();
         }
 
         stopStepSound();
+
+        if (currentHp == 0 && isAlive)
+        {
+            isAlive = false;
+            StartCoroutine(dies());
+        }
+
+
     }
 
     void FixedUpdate()
     {
-        if (movimiento.x != 0 && movimiento.y != 0)
+        if (movement.x != 0 && movement.y != 0)
         {
-            movimiento.Normalize();
+            movement.Normalize();
         }
 
-        rb.MovePosition(rb.position + movimiento * velocidad * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-
-        if (collision.collider.CompareTag("Enemy"))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Sword"))
-        {
-            hasSword = true;
-            Destroy(other.gameObject);
-        }
-        if (other.CompareTag("Enemy"))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-    }
-
-    private void Attack()
-    {
-        Vector2 posicionAtaque = (Vector2)transform.position + ultimaDireccion;
-        Instantiate(attackObjectprefab, posicionAtaque, Quaternion.identity);
-
-    }
-
     private void toggleFlashlight()
     {
-        Light2D light = flashlight.GetComponent<Light2D>();
-        flashlightStatus = light.intensity > 0;
+        if (isAlive)
+        {
+            Light2D light = flashlight.GetComponent<Light2D>();
+            flashlightStatus = light.intensity > 0;
 
-        if (flashlightStatus)
-        {
-            light.intensity = 0;
-        } 
-        else
-        {
-            light.intensity = 1;
+            if (flashlightStatus)
+            {
+                light.intensity = 0;
+            }
+            else
+            {
+                light.intensity = 1;
+            }
         }
-    }
-
-    IEnumerator PlayGameOverSound(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        
     }
 
     private void playStepSound()
@@ -209,6 +177,18 @@ public class PlayerScript : MonoBehaviour
         {
             steps.Stop();
         }
+    }
+
+    IEnumerator dies()
+    {
+        for (int i = 0; i < 45; i++)
+        {
+            transform.rotation = Quaternion.Euler(0, 0, i*2);
+            yield return null;
+        }
+        transform.rotation = Quaternion.Euler(0, 0, 90);
+        gameOverSound.Play();
+
     }
 
     IEnumerator falls()
@@ -229,26 +209,24 @@ public class PlayerScript : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         spriteRenderer.sprite = lookingDown;
         fallingSound.Play();
-        for (int i = 73; i >= 0; i--)
+        int fallSpeed = 50;
+        for (int i = fallSpeed; i >= 0; i--)
         {
-            yield return null;
-            float scale = i / 73f;
+            float scale = i / 50f;
             transform.localScale = new Vector3(scale,scale,1);
+            yield return new WaitForSeconds(0.035f);
         }
         gameOverSound.Play();
     }
 
-    public bool isLightOn ()
-    {
-        return this.flashlightStatus;
-    }
-
     public IEnumerator getHitEffect()
     {
-        if (!isBeingHit && !hasFallen)
+        if (!isBeingHit && !hasFallen && isAlive)
         {
             isBeingHit = true;
             oof.Play();
+            currentHp--;
+            Debug.Log(currentHp);
             spriteRenderer.color = Color.red;
              yield return new WaitForSeconds(0.5f);
             spriteRenderer.color = Color.white;
@@ -262,5 +240,6 @@ public class PlayerScript : MonoBehaviour
         }
         yield return new WaitForSeconds(1f);
         isBeingHit = false;
+
     }
 }

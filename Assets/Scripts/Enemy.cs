@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour
     public float range = 1f;
     public monsterType monsterName;
     public PlayerScript playerScript;
-    private bool hasAttacked = false;
+    public bool isAlive = true;
 
     public enum monsterType
     {
@@ -36,40 +36,44 @@ public class Enemy : MonoBehaviour
         playerPosition = player.transform.position;
         float distance_x = playerPosition.x - transform.position.x;
         float distance_y = playerPosition.y - transform.position.y;
+        if (isAlive)
+        {
+            if (Mathf.Abs(distance_x) <= range)
+            {
+                movimiento.x = 0;
+                animator.SetFloat("movimiento.x", movimiento.x);
+            }
+            else if (playerPosition.x < transform.position.x)
+            {
+                movimiento.x = -1;
+                animator.SetFloat("movimiento.x", movimiento.x);
+            }
+            else if (playerPosition.x > transform.position.x)
+            {
+                movimiento.x = 1;
+                animator.SetFloat("movimiento.x", movimiento.x);
+            }
 
-        if (Mathf.Abs(distance_x) <= range)
-        {
-            movimiento.x = 0;
-            animator.SetFloat("movimiento.x", movimiento.x);
-        } else if (playerPosition.x < transform.position.x)
-        {
-            movimiento.x = -1;
-            animator.SetFloat("movimiento.x", movimiento.x);
-        } else if (playerPosition.x > transform.position.x)
-        {
-            movimiento.x = 1;
-            animator.SetFloat("movimiento.x", movimiento.x);
+            if (Mathf.Abs(distance_y) < range)
+            {
+                movimiento.y = 0;
+                animator.SetFloat("movimiento.y", movimiento.y);
+            }
+            else if (playerPosition.y < transform.position.y)
+            {
+                movimiento.y = -1;
+                animator.SetFloat("movimiento.y", movimiento.y);
+            }
+            else if (playerPosition.y > transform.position.y)
+            {
+                movimiento.y = 1;
+                animator.SetFloat("movimiento.y", movimiento.y);
+            }
+            if (Mathf.Abs(distance_y) <= range && Mathf.Abs(distance_x) <= range)
+            {
+                StartCoroutine(enemyAttacks());
+            }
         }
-
-        if (Mathf.Abs(distance_y) < range)
-        {
-            movimiento.y = 0;
-            animator.SetFloat("movimiento.y", movimiento.y);
-        }
-        else if (playerPosition.y < transform.position.y)
-        {
-            movimiento.y = -1;
-            animator.SetFloat("movimiento.y", movimiento.y);
-        } else if (playerPosition.y > transform.position.y)
-        {
-            movimiento.y = 1;
-            animator.SetFloat("movimiento.y", movimiento.y);
-        }
-        if (Mathf.Abs(distance_y) <= range && Mathf.Abs(distance_x) <= range)
-        {
-            StartCoroutine(enemyAttacks());
-        } 
-
     }
     private void FixedUpdate()
     {
@@ -77,11 +81,20 @@ public class Enemy : MonoBehaviour
     }
     public IEnumerator enemyAttacks()
     {
-        if (!playerScript.isBeingHit)
+        if (!playerScript.isBeingHit && playerScript.isAlive)
         {
+            animator.SetBool("isAttacking", true);
+            StartCoroutine(cooldownAttack());
             yield return StartCoroutine(playerScript.getHitEffect());
             yield return new WaitForSeconds(2f);
-            hasAttacked = false;
+           
+
         }
+    }
+    
+    IEnumerator cooldownAttack()
+    {
+        yield return new WaitForSeconds(1f);
+        animator.SetBool("isAttacking", false);
     }
 }
