@@ -23,7 +23,7 @@ public class PlayerScript : MonoBehaviour
     public bool hasFallen = false;
     public int maxHp = 3;
     private int currentHp;
-
+    
     public AudioSource oof;
     public AudioSource ambientalMusic;
     public AudioSource fallingSound;
@@ -37,6 +37,7 @@ public class PlayerScript : MonoBehaviour
 
     private void Start()
     {
+        transform.position = loadCheckpoint();
         normalSpeed = speed;
         currentHp = maxHp;
     }
@@ -177,6 +178,27 @@ public class PlayerScript : MonoBehaviour
         {
             steps.Stop();
         }
+    }
+
+    public void setCheckpoint(Vector2 checkpoint)
+    {
+
+        PlayerPrefs.SetFloat("posX", checkpoint.x);
+        PlayerPrefs.SetFloat("posY", checkpoint.y);
+        PlayerPrefs.Save();
+    }
+
+    private Vector2 loadCheckpoint()
+    {
+        if (PlayerPrefs.HasKey("posX"))
+        {
+            float posX = PlayerPrefs.GetFloat("posX");
+            float posY = PlayerPrefs.GetFloat("posY");
+            Vector2 checkpointPos = new Vector2(posX, posY);
+            return checkpointPos;
+        }
+        return new Vector2(0,-4);
+
     }
 
     IEnumerator dies()

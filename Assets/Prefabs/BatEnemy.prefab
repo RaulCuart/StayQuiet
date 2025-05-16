@@ -130,9 +130,10 @@ MonoBehaviour:
   speed: 3.5
   rb: {fileID: 7232232342829803655}
   animator: {fileID: 5641641224048814768}
-  range: 0.5
+  range: 1
   monsterName: 0
   playerScript: {fileID: 0}
+  isAlive: 1
 --- !u!61 &8842468017590669468
 BoxCollider2D:
   m_ObjectHideFlags: 0
