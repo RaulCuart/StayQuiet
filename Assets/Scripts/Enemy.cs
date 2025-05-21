@@ -1,9 +1,11 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class Enemy : MonoBehaviour
 {
     public GameObject player;
+    public GameObject aura;
     public float speed = 5f;
     public Rigidbody2D rb;
     private Vector2 playerPosition;

@@ -12,12 +12,14 @@ public class KeyScript : MonoBehaviour
     public int moveSpeed = 5;
     public Vector2 targetPosition;
     public AudioSource openDoorSound;
+    public AudioSource pickKey;
 
     void Update()
     {
         if (foundDoor && !isPickedDown)
         {
             isPickedDown = true;
+
             StartCoroutine(goToDoor());
         }
 
@@ -29,6 +31,7 @@ public class KeyScript : MonoBehaviour
         if (collision.tag == "Player" && !isPickedUp)
         {
             isPickedUp = true;
+            pickKey.Play();
             StartCoroutine(followPlayer());
         }
     }

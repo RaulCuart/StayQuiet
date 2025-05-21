@@ -65,6 +65,10 @@ public class PitScript : MonoBehaviour
                 entityToFall.localScale = new Vector3(scale, scale, 1);
                 yield return new WaitForSeconds(0.035f);
             }
+            if (enemyScript != null)
+              {
+                enemyScript.aura.SetActive(false);
+              }
         
     }
 }

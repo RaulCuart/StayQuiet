@@ -21,8 +21,9 @@ public class PlayerScript : MonoBehaviour
     public bool isBeingHit = false;
     public bool isFalling = false;
     public bool hasFallen = false;
+    public bool gameisPaused = false;
     public int maxHp = 3;
-    private int currentHp;
+    public int currentHp;
     
     public AudioSource oof;
     public AudioSource ambientalMusic;
@@ -78,7 +79,7 @@ public class PlayerScript : MonoBehaviour
             animator.speed = 1f;
         }
 
-        if (Input.GetKey(KeyCode.A) && isAlive)
+        if (Input.GetKey(KeyCode.A) && isAlive && !gameisPaused)
         {
             movement.x = -1;
             animator.SetFloat("movimiento.x", movement.x);
@@ -88,7 +89,7 @@ public class PlayerScript : MonoBehaviour
             playStepSound();
         }
 
-        if (Input.GetKey(KeyCode.D) && isAlive)
+        if (Input.GetKey(KeyCode.D) && isAlive && !gameisPaused)
         {
             movement.x = 1;
             animator.SetFloat("movimiento.x", movement.x);
@@ -99,7 +100,7 @@ public class PlayerScript : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.W) && isAlive)
+        if (Input.GetKey(KeyCode.W) && isAlive && !gameisPaused)
         {
             movement.y = 1;
             animator.SetFloat("movimiento.y", movement.y);
@@ -110,7 +111,7 @@ public class PlayerScript : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.S) && isAlive)
+        if (Input.GetKey(KeyCode.S) && isAlive && !gameisPaused)
         {
             movement.y = -1;
             animator.SetFloat("movimiento.y", movement.y);
@@ -121,7 +122,7 @@ public class PlayerScript : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F) && !gameisPaused)
         {
             toggleFlashlight();
         }
