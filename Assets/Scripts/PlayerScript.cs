@@ -15,6 +15,8 @@ public class PlayerScript : MonoBehaviour
     public Collider2D playerCollider;
     public Animator animator;
     public GameObject flashlight;
+    public GameObject deathPanel;
+    public GameObject settingsButton;
     private float normalSpeed;
     public bool isMoving = false;
     public bool isAlive = true;
@@ -212,7 +214,8 @@ public class PlayerScript : MonoBehaviour
         }
         transform.rotation = Quaternion.Euler(0, 0, 90);
         gameOverSound.Play();
-
+        deathPanel.SetActive(true);
+        settingsButton.SetActive(false);
     }
 
     IEnumerator falls()
