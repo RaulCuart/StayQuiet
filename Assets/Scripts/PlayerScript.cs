@@ -30,7 +30,7 @@ public class PlayerScript : MonoBehaviour
     public AudioSource fallingSound;
     public AudioSource gameOverSound;
     public AudioSource steps;
-    private bool flashlightStatus = true;
+    public bool flashlightStatus = true;
 
     public Sprite lookingLeft;
     public Sprite lookingRight;
@@ -152,15 +152,16 @@ public class PlayerScript : MonoBehaviour
         if (isAlive)
         {
             Light2D light = flashlight.GetComponent<Light2D>();
-            flashlightStatus = light.intensity > 0;
 
-            if (flashlightStatus)
+            if (light.intensity > 0)
             {
                 light.intensity = 0;
+                flashlightStatus = false;
             }
             else
             {
                 light.intensity = 1;
+                flashlightStatus = true;
             }
         }
     }

@@ -35,7 +35,7 @@ public class PitScript : MonoBehaviour
             enemyScript = entityToFall.GetComponent<Enemy>();
         }
 
-        if (entityToFall.tag != "LightArea")
+        if (entityToFall.tag == "Enemy" || entityToFall.tag == "Player")
         {
             fallingSound.Play();
             StartCoroutine(falls(entityToFall.transform, playerScript, enemyScript));
@@ -44,7 +44,7 @@ public class PitScript : MonoBehaviour
 
     IEnumerator falls(Transform entityToFall, PlayerScript playerScript, Enemy enemyScript)
     {
-        Debug.Log("algo se cayo");
+        Debug.Log("algo se cayo: " );
 
 
         if (playerScript != null)
