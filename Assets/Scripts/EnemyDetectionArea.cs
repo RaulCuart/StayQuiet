@@ -31,6 +31,10 @@ public class EnemyDetectionArea : MonoBehaviour
                 enemy.playerInRange = true;
                 enemy.stopMoveTolastKnownpos();
             }
+            if (playerScript.flashlight && enemy.monsterName == Enemy.monsterType.Eye)
+            {
+                enemy.playerInRange = false;
+            }
 
 
             if (!playerScript.isShifting && enemy.monsterName == Enemy.monsterType.Bat && !playerScript.isHidden)
