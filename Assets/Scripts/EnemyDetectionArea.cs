@@ -22,39 +22,45 @@ public class EnemyDetectionArea : MonoBehaviour
 
         if (collision.CompareTag("PlayerDetection"))
         {
-            if (playerScript.flashlightStatus && enemy.monsterName == Enemy.monsterType.Eye)
+            if (playerScript.flashlightStatus && enemy.monsterName == Enemy.monsterType.Eye && !playerScript.isHidden)
             {
                 enemy.playerInRange = true;
-
-
             }
-            if (enemy.movesToLastKnownPos)
+            if (enemy.movesToLastKnownPos && !playerScript.isHidden)
             {
                 enemy.playerInRange = true;
-                enemy.startsMoveToLastKnownPos();
+                enemy.stopMoveTolastKnownpos();
             }
 
 
-            if (!playerScript.isShifting && enemy.monsterName == Enemy.monsterType.Bat)
+            if (!playerScript.isShifting && enemy.monsterName == Enemy.monsterType.Bat && !playerScript.isHidden)
             {
-
                 enemy.playerInRange = true;
+            }
+            if (playerScript.isShifting && enemy.monsterName == Enemy.monsterType.Bat)
+            {
+                enemy.playerInRange = false;
             }
         }
 
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+   private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("PlayerDetection") && playerScript.flashlightStatus && enemy.monsterName == Enemy.monsterType.Eye)
+        if (collision.CompareTag("PlayerDetection") && playerScript.flashlightStatus && enemy.monsterName == Enemy.monsterType.Eye && !playerScript.isHidden)
         {
 
             enemy.playerInRange = true;
         }
-        if (collision.CompareTag("PlayerDetection") && !playerScript.isShifting && enemy.monsterName == Enemy.monsterType.Bat)
+        if (collision.CompareTag("PlayerDetection") && !playerScript.isShifting && enemy.monsterName == Enemy.monsterType.Bat && !playerScript.isHidden)
         {
 
             enemy.playerInRange = true;
+        }
+        if (collision.CompareTag("PlayerDetection") && playerScript.isHidden)
+        {
+            enemy.playerInRange = false;
+            enemy.startsMoveToLastKnownPos();
         }
     }
 

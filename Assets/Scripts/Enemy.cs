@@ -95,7 +95,7 @@ public class Enemy : MonoBehaviour
     }
     public IEnumerator enemyAttacks()
     {
-        if (!playerScript.isBeingHit && playerScript.isAlive)
+        if (!playerScript.isBeingHit && playerScript.isAlive && !playerScript.isHidden)
         {
             animator.SetBool("isAttacking", true);
             StartCoroutine(cooldownAttack());

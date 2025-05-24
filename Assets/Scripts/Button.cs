@@ -11,7 +11,7 @@ public class Button : MonoBehaviour
     public GameObject playerFlashLight;
     public Boolean isTrap;
     private Boolean canBeToggled = false;
-    private Boolean activated = false;
+    public Boolean activated = false;
     public AudioSource fallingEffect;
     private bool playerIsAlive;
    

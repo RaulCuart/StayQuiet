@@ -26,6 +26,7 @@ public class PlayerScript : MonoBehaviour
     public bool gameisPaused = false;
     public int maxHp = 3;
     public int currentHp;
+    public bool isHidden = false;
     
     public AudioSource oof;
     public AudioSource ambientalMusic;
@@ -213,9 +214,7 @@ public class PlayerScript : MonoBehaviour
             yield return null;
         }
         transform.rotation = Quaternion.Euler(0, 0, 90);
-        gameOverSound.Play();
-        deathPanel.SetActive(true);
-        settingsButton.SetActive(false);
+        gameOverScreen();
     }
 
     IEnumerator falls()
@@ -243,7 +242,8 @@ public class PlayerScript : MonoBehaviour
             transform.localScale = new Vector3(scale,scale,1);
             yield return new WaitForSeconds(0.035f);
         }
-        gameOverSound.Play();
+        currentHp = 0;
+        gameOverScreen();
     }
 
     public IEnumerator getHitEffect()
@@ -268,5 +268,12 @@ public class PlayerScript : MonoBehaviour
         yield return new WaitForSeconds(1f);
         isBeingHit = false;
 
+    }
+
+    public void gameOverScreen()
+    {
+        gameOverSound.Play();
+        deathPanel.SetActive(true);
+        settingsButton.SetActive(false);
     }
 }
