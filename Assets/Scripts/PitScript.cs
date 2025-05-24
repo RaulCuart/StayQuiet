@@ -69,6 +69,9 @@ public class PitScript : MonoBehaviour
               {
                 enemyScript.aura.SetActive(false);
               }
-        
+            if (playerScript != null)
+              {
+                playerScript.gameOverScreen();
+              }
     }
 }
