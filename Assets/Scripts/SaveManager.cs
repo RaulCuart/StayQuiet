@@ -29,8 +29,15 @@ public class SaveManager : MonoBehaviour
 
     public void openNewGameMenu()
     {
-        confirmationMenu.SetActive(true);
-        menuPanel.SetActive(false);
+        if (!PlayerPrefs.HasKey("posX"))
+        {
+            SceneManager.LoadScene("Game");
+        } else
+        {
+            confirmationMenu.SetActive(true);
+            menuPanel.SetActive(false);
+        }
+
     }
 
     public void closeNewGameMenu()
